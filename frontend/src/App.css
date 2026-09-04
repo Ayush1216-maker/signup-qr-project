@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.form-card,
+.qr-card {
+    background: white;
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-card {
+    width: 400px;
+}
+
+.qr-card {
+    width: 320px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 8px 0;
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.subtitle {
+    color: #666;
+    margin: 0 0 25px 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    padding: 13px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+button {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.qr-card h2 {
+    margin-bottom: 25px;
+}
+
+.qr-card p {
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .form-card {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .qr-card {
+        display: none;
+    }
+}
