@@ -7,7 +7,7 @@ The application uses React for the frontend, Node.js and Express for the backend
 ## 🚀 Live Demo
 
 **Frontend:**  
-https://YOUR-VERCEL-URL.vercel.app
+https://signup-qr-project.vercel.app
 
 **Backend API:**  
 https://signup-qr-project.onrender.com
